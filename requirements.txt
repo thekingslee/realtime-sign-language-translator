@@ -1,0 +1,7 @@
+opencv-python==4.8.1.78
+mediapipe==0.10.7
+numpy==1.24.3
+matplotlib==3.7.2
+tensorflow==2.13.0
+# Note: pyttsx3 removed due to macOS compatibility issues
+# Text-to-speech now uses macOS built-in 'say' command 

@@ -18,10 +18,13 @@ RESIZED_HEIGHT = 360
 
 
 def speak(text):
-    engine = pyttsx3.init()
-    print(type(text))
-    engine.say(text)
-    engine.runAndWait()
+    try:
+        import subprocess
+        print(f"Speaking: {text}")
+        subprocess.run(['say', text], check=True)
+    except Exception as e:
+        print(f"Text-to-speech failed: {e}")
+        print(f"Recognized sign: {text}")
 
 
 def calc_bounding_rect(image, landmarks):
