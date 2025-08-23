@@ -28,7 +28,6 @@ Currently recognizes 5 basic signs:
 - **Thank you** - Gratitude gesture
 - **You** - Pointing gesture
 - **Okay** - Thumbs up gesture
-- **I** - Point to self gesture
 
 ## 🛠️ Installation & Setup
 
@@ -82,9 +81,6 @@ python main.py
 ### Controls
 
 - **ESC**: Exit application
-- **0-9**: Label signs for data collection
-- **K**: Enter keypoint logging mode
-- **H**: Enter point history logging mode
 
 ### Command Line Options
 
