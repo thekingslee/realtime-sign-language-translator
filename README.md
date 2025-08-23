@@ -27,7 +27,7 @@ Currently recognizes 5 basic signs:
 - **Wait** - Hold gesture
 - **Thank you** - Gratitude gesture
 - **You** - Pointing gesture
-- **Okay** - Thumbs up gesture
+- **Okay** - Ok gesture 👌🏽
 
 ## 🛠️ Installation & Setup
 
